@@ -23,7 +23,7 @@ function currentLine (katzDeliLine) {
     lineOrder.push([i + 1]+ "." + katzDeliLine[i] +",")
   }
   return "The line is currently: " + lineOrder;} 
-  }
+  
 }
 
 
