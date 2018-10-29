@@ -21,7 +21,7 @@ function currentLine (katzDeliLine) {
   }
   return "The line is currently " + lineOrder; 
   if (katzDeliLine === 0) {
-    return 
+    return "The line is currently empty."
   }
 }
 
