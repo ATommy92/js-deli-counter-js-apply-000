@@ -17,6 +17,6 @@ var line = [];
 
 function currentLine (katzDeliLine) {
   for ( var i =0; i < katzDeliLine.length; i++) {
-    
+    return 
   }
 }
