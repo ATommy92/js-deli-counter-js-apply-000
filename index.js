@@ -13,10 +13,13 @@ function nowServing (katzDeliLine) {
   }
 }
 
-var line = [];
+var lineOrder = [];
 
 function currentLine (katzDeliLine) {
   for ( var i =0; i < katzDeliLine.length; i++) {
-    return line.push([i + 1] + katzDeliLine[i])
+    lineOrder.push([i + 1] + katzDeliLine[i])
   }
 }
+
+
+
